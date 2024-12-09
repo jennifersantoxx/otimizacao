@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otimização de Imagens</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <center><h4>COMPARAÇÃO DE IMAGENS</h4></center>
+    <div class="image-container">
+        <div>
+            <center><h4>original</h4></center>
+            <img src="original/img - 1.jpg" alt="Imagem Original 1">
+            <img src="original/img - 2.jpg" alt="Imagem Original 2">
+            <img src="original/img - 3.jpg" alt="Imagem Original 3">
+        </div>
+        <div>
+            <center><h4>otimizada</h4></center>
+            <picture>
+                <source srcset="otimizado/imagem-webp.webp" type="image/webp" media="(max-width: 600px)">
+                <img src="otimizado/img - 1.webp" alt="Imagem Otimizada 1">
+                <img src="otimizado/img - 2.webp" alt="Imagem Otimizada 2">
+                <img src="otimizado/img - 3.webp" alt="Imagem Otimizada 3">
+            </picture>
+        </div>
+    </div>
+</body>
+</html>
