@@ -1,0 +1,27 @@
+body {
+    font-family: "Bebas Neue", sans-serif; 
+    text-align: center;
+    margin: 20px;
+}
+ 
+h1 {
+    color: #000000;
+}
+ 
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.image-container div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+}
